@@ -1,10 +1,11 @@
-
-/* Your CSS Code here. */
-
 body {
-    background-color: #ffffff;
     font-family: Arial, sans-serif;
-    padding: 20px;
+    background-color: #eef7f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .questions {
@@ -14,4 +15,11 @@ body {
     padding: 15px;
     max-width: 600px;
     border-left: 8px solid green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.questions p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
 }
